@@ -1,0 +1,97 @@
+/* CSS RESET */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+body {
+  background: url(images/background.PNG) repeat;
+  font-family: Tahoma;
+}
+
+#navbar {
+  background: url(images/nav-bg.png) repeat-x;
+  height: 37px;
+}
+
+#navbar-items {
+  width: 835px;
+  margin: auto;
+}
+
+
+#navbar ul {
+  float: right;
+  direction: rtl;
+}
+
+#navbar li {
+  display: inline;
+  line-height: 27px;
+  padding: 10px;
+}
+
+#navbar li a {
+  color: #FFF;
+  font-size: 13px;
+  text-decoration: none;
+  text-shadow: 1px 1px #333;
+}
+
+#navbar li a:hover {
+  text-decoration: underline;
+}
+
+#social-networks {
+  padding-top: 5px;
+}
+
+#site-contents {
+  width: 835px;
+  margin: auto;
+}
+
+#header {
+  margin-top: 30px;
+}
+
+
+#logo {
+  float: right;
+}
+
+.menu_head{border:1px solid #998675;}
+.menu_body {display:none; width:184px;border-right:1px solid #998675;border-bottom:1px solid #998675;border-left:1px solid #998675;}
+.menu_body li{background:#493e3b;}
+.menu_body li.alt{background:#362f2d;}
+.menu_body li a{color:#FFFFFF; text-decoration:none; padding:10px; display:block;}
+.menu_body li a:hover{padding:15px 10px; font-weight:bold;}
+
+
